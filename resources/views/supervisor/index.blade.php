@@ -1,7 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="px-5">
+
+<div class="mx-5">
 
     <h1 class="mb-3 font-weight-bold">List of Supervisors</h1>
     <div class="card">

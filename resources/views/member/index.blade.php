@@ -3,7 +3,7 @@
     <div class="mx-5">
 
         <h1 class="font-weight-bold mb-3">List of Members</h1>
-        <a href="{{ route('member.create') }}" class="btn btn-primary">Register member</a>
+        <a href="{{ route('member.create') }}" class="btn btn-dark">Register member</a>
             <div class="card card-body mt-4">
                 <table class="table table-striped">
                     <tr>
@@ -23,7 +23,7 @@
                             <td>{{ $member->phoneNumber }}</td>
                             <td>{{ $member->address }}</td>
                             <td>{{ $member->email }}</td>
-                            <td><a href="{{ route('member.show', $member) }}" class="btn btn-primary">Show</a></td>
+                            <td><a href="{{ route('member.show', $member) }}" class="btn btn-dark">Show</a></td>
                         </tr>
                     @endforeach
                 </table>

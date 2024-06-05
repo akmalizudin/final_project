@@ -4,7 +4,7 @@
         <h1 class="mx-5">Create Loan</h1>
         <h5 class="mx-5 mb-3">Please enter the loan's details</h5>
 
-        <div class="card pt-3 pb-3">
+        <div class="card pt-3 pb-3 col-md-6 mx-3">
 
             <form action="{{ route('loan.store') }}" method="POST">
                 @csrf
@@ -24,7 +24,7 @@
                     <input type="date" name="borrowingDate" class="form-control mb-2" style="width: 30%" required>
                 </div>
 
-                <button type="submit" class="btn btn-primary mt-3 mx-5">Submit</button>
+                <button type="submit" class="btn btn-dark mt-3 mx-5">Submit</button>
             </form>
         </div>
     </div>

@@ -4,7 +4,7 @@
     <div class="px-5">
         <h1 class="font-weight-bold mb-3">List of Volunteers</h1>
         @can('create-volunteers', App\Models\User::class)
-            <a href="{{ route('volunteer.create') }}" class="btn btn-primary">Add volunteer</a>
+            <a href="{{ route('volunteer.create') }}" class="btn btn-dark">Add volunteer</a>
         @endcan
         
         <div class="card mt-3">

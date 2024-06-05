@@ -4,7 +4,7 @@
         <h1 class="mx-5">Create Member</h1>
         <h5 class="mx-5 mb-3">Please enter the member's details</h5>
         
-        <div class="card pt-3 pb-3">
+        <div class="card pt-3 pb-3 col-md-6 mx-3">
             <form action="{{ route('member.store') }}" method="POST">
                 @csrf
 
@@ -34,7 +34,7 @@
                     <input type="email" name="email" class="form-control" required>
                 </div>
 
-                <button type="submit" class="btn btn-primary mx-5 mb-2">Submit</button>
+                <button type="submit" class="btn btn-dark mx-5 mb-2">Submit</button>
 
             </form>
         </div>
